@@ -1,0 +1,127 @@
+:root {
+    --color-text: #000;
+    --color-heading: #FFF;
+    --color-link: #0a5b34;
+    --color-accent: #0a5b34;
+    ;
+
+    --color-bg-primary: #fff;
+
+    --ff-body: 'Nunito Sans', sans-serif;
+    --ff-heading: var(--ff-body);
+}
+
+body {
+    background-color: var(--color-bg-primary);
+    color: var(--color-text);
+    font-family: var(--ff-body);
+    font-size: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: var(--color-text);
+    font-family: var(--ff-heading);
+    font-weight: 400;
+    line-height: 1.15;
+    margin-bottom: 0;
+}
+
+h1 {
+    font-family: var(--ff-body);
+    font-size: 14px;
+    font-weight: 900;
+    color: var(--color-text);
+    text-decoration: none;
+}
+
+h1 a {
+    color: var(--color-text);
+    text-decoration: none;
+}
+
+h1 a:hover {
+    color: var(--color-accent);
+    text-decoration: none;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration: none;
+
+}
+
+h3 {
+    font-size: 14px;
+    font-weight: 600;
+    padding-bottom: 1.5rem;
+    text-decoration: none;
+}
+
+h4 {
+    font-size: 14px;
+    color: var(--color-text);
+    font-weight: 600;
+    margin-bottom: 10px;
+    line-height: 1.8;
+    text-decoration: none;
+}
+
+h4 a {
+    color: var(--color-text);
+    text-decoration: underline;
+}
+
+
+h4 a:hover {
+    color: var(--color-accent);
+}
+
+h5 {
+    font-size: 50px;
+    font-weight: 700;
+    color: var(--color-text);
+    text-decoration: none;
+}
+
+h6 {
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+
+}
+
+
+p {
+    font-size: 19px;
+    margin-bottom: 5px;
+    font-weight: 600;
+    color: var(--color-text);
+}
+
+.p2 {
+    font-size: 24px;
+}
+
+
+.border-bottom {
+    padding: 0;
+    margin: 0;
+    border-bottom: 1.5px solid rgba(90, 87, 87, 0.185) !important;
+ 
+}
+
+div {
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    padding: 0;
+    padding-block: 1.5rem;
+}
