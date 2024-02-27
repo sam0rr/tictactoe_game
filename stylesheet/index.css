@@ -1,0 +1,47 @@
+:root {
+    /* Define a size variable that can be adjusted to scale the grid dynamically */
+    --cell-size: 10vw; /* This will make each cell's size relative to 15% of the viewport width */
+}
+
+.board .row {
+    display: flex;
+    margin: 0 auto;
+}
+
+.board .cell {
+    width: var(--cell-size);
+    height: var(--cell-size);
+    max-width: 150px; /* Maximum cell size */
+    max-height: 150px; /* Maximum cell size */
+    min-width: 60px; /* Minimum cell size to ensure usability */
+    min-height: 60px; /* Minimum cell size to ensure usability */
+
+    background-color: #070771ca;
+    border: 5px solid #00000036;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 5rem;
+    font-weight: 800;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Smooth transition for the hover effect */
+}
+
+.board .cell:hover {
+    background-color: #0a1b7c57; /* Darker shade on hover */
+}
+
+#gameContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#status {
+    margin-top: 50px;
+}
+
+.hidden {
+    display: none;
+}
